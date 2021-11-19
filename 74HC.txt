@@ -1,9 +1,9 @@
 74HC
 ----
 
-00,02,03,04,05,08,10	portes
-11,14,20,21,27,30,32	portes
-42,73,74,75,85,86,93	BCD,JK,D,CMP,XOR,Counter
+00,02,03,(2G)04,05,08,10	portes
+11,(2G)14,20,21,27,30,32	portes
+2G34,42,73,74,75,85,86,93	Buffer,BCD,JK,D,CMP,XOR,Counter
 
 109,123,125,126,132		JK,mono,buffer,nand trig
 138,139,151,153,154,157,158	mux,dmux
