@@ -1,11 +1,11 @@
 74HC
 ----
 
-00,02,03,(2G)04,05,08,10	portes
-11,(2G)14,20,21,27,30,32	portes
-2G34,42,73,74,75,85,86,93	Buffer,BCD,JK,D,CMP,XOR,Counter
+(1G)00,(1G)02,03,(2G)04,05,(1G)08,10	portes
+11,(2G)14,20,21,27,30,(1G)32		portes
+2G34,42,73,74,75,85,(1G)86,93	Buffer,BCD,JK,D,CMP,XOR,Counter
 
-109,123,125,126,132		JK,mono,buffer,nand trig
+109,123,(1G)125,(1G)126,132	JK,mono,buffer,nand trig
 138,139,151,153,154,157,158	mux,dmux
 161,163,164,165,166 		cnt,registres
 173,174,175,191,193,194 	D,cnt,registre
@@ -20,6 +20,8 @@
 688,4316,4351,4851,4852,6323	 cmp,switch,analog mux,cnt
 
 40103,4017,4024,4040,4046,4049,4050	cnt,pll,buffers
-4051,4052,4053,4060,4066,4067,4094	analog mux,cnt,switch,registre
+4051,4052,4053,4060,4066,1G66,4067,4094	analog mux,cnt,switch,registre
 
 4511,4514,4515,4520,4538	7 seg,dmux,cnt,mono
+
+7014,7540,7541			trigger
