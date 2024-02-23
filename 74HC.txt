@@ -1,8 +1,8 @@
 74HC
 ----
 
-(1G)00,(1G)02,03,(2GU)04,(T)05,(1G)08  portes
-10,11,(2G)14,20,21,27,30,(1G)32			portes
+(1G)00,(1G)02,03,(2GU)04,(T)05,(1G)08    portes
+10,11,(2G)14,20,21,27,30,(1G)32		portes
 2G34,42,73,74,75,85,(1G)86,93	Buffer,BCD,JK,D,CMP,XOR,Counter
 
 109,123,(1G)125,(1G)126,132	JK,mono,buffer,nand trig
