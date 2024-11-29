@@ -1,20 +1,20 @@
 74HC
 ----
 
-(1G)00,(1G)02,03,(2GU)04,(T)05,(1G)08    portes
+(1G)00,(1G)02,03,(2GU)04,(T)05,(1G)08	portes
 10,11,(2G)14,20,21,27,30,(1G)32		portes
 2G34,42,73,74,75,85,(1G)86,93	Buffer,BCD,JK,D,CMP,XOR,Counter
 
 109,123,(1G)125,(1G)126,132	JK,mono,buffer,nand trig
 138,139,151,153,154,157,158	mux,dmux
-161,163,164,165,166 		cnt,registres
-173,174,175,191,193,194 	D,cnt,registre
+161,163,164,165,166 		preset cnt,registres
+173,174,175,191,193,194 	D-edge,up down cnt,registre
 
-237,238,240,241,244,245 	dmux,buffers
+221,237,238,240,241,244,245 	monostable,dmux,buffers
 251,253,257,259,273,280,283,299	mux,latch,registre,parity,add,registre
 
 365,366,367,368 		buffers
-373,374,377,390,393,423 	latch,registre,cnt,monostable
+373,374,377,390,393,423 	latch,registre,dual cnt,monostable
 
 540,541,573,574,594,595,597,670  buffer,latch,D,registre
 688,4316,4351,4851,4852,6323	 cmp,switch,analog mux,cnt
@@ -22,6 +22,5 @@
 40103,4017,4024,4040,4046,4049,4050	cnt,pll,buffers
 4051,4052,4053,4060,4066,1G66,4067,4094	analog mux,cnt,switch,registre
 
-4511,4514,4515,4520,4538	7 seg,dmux,cnt,mono
-
-7014,7540,7541			Buffer
+4514,4515,4520,4538,7014	dmux,cnt,mono,Buffer
+	
